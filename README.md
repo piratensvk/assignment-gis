@@ -18,10 +18,8 @@ Build a map-based application, which lets the user see geo-based data on a map a
 
 ## My project
 
-Fill in (either in English, or in Slovak):
+**Application description**: `Webová aplikácia slúži ako horský sprievodca v rámci územia Slovenska, konkrétne chránených oblastí. Umožňuje prechádzať a zoraďovať oblasti, v každej zobraziť všetky vrchy a taktiež ich zoraďovať podľa nadmorskej výšky. Tretí scenár spočíva v nájdení možných chodníkov popri danom vrchu a zároveň cesta ukáže aj iné vrchy, popri ktorých vedie. `
 
-**Application description**: `<fill in>`
+**Data source**: `https://download.geofabrik.de/europe.html, konkrétne mapa Slovenska`
 
-**Data source**: `<fill in>`
-
-**Technologies used**: `<fill in>`
+**Technologies used**: `Postgis, ExpressJS, NodeJS, LeafletJS, Bootstrap, JQuery`
