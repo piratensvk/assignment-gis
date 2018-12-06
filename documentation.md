@@ -28,6 +28,7 @@ Stará sa o:
 # Backend
 
 Backend je postavený na technológii NodeJS a ExpressJS a využíva ich základné knižnice.<br/>
+Javascript kód sa nachádza v súbore (`js/server.js`).<br/>
 Zabezpečuje:
 * endpointy pre volania z frontendu
 * pripojenie na lokálnu PostGIS databázu
