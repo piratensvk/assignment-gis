@@ -2,9 +2,9 @@
 
 Aplikácia zobrazuje chránené oblasti a národné parky, vrchy v rámci nich a cesty, ktorými cez vybraté vrchy prejsť.
 Používateľ má možnosť:
--zoradiť oblasti podľa rozlohy (a abecedne)
--zoradiť vrchy podľa nadmorskej výšky (a abecedne)
--po vybratí si vrchu zobraziť možné cesty popri ňom (farebne odlíšené, ak je ciest viac) a nájsť aj iné vrchy, ktoré danou cestou navštívi
+-zoradiť oblasti podľa rozlohy (a abecedne)<br>
+-zoradiť vrchy podľa nadmorskej výšky (a abecedne)<br>
+-po vybratí si vrchu zobraziť možné cesty popri ňom (farebne odlíšené, ak je ciest viac) a nájsť aj iné vrchy, ktoré danou cestou navštívi.
 
 ![Screenshot](screenshot.png)
 
@@ -21,17 +21,17 @@ K tomu je využívané vlastné CSS v súbore (`styles/style.css`).
 Boostrap CSS je stiahnutý a nachádza sa v súbore (`styles/bootstrap.min.css`). 
 Bootstrap JS je v súbore (`js/lib/bootstrap.min.js`).
 Vlastný frontend Javascript kód je v súbore (`js/app.js`). Stará sa o:
--volania na backend cez AJAX
--zachytávanie používateľových vstupov v mape a v navigačnom menu
--upravovanie navigačného menu
+-volania na backend cez AJAX<br>
+-zachytávanie používateľových vstupov v mape a v navigačnom menu<br>
+-upravovanie navigačného menu<br>
 -zobrazenie nových údajov po ich vrátení z backendu
 
 # Backend
 
 Backend je postavený na technológii NodeJS a ExpressJS a využíva ich základné knižnice.
 Zabezpečuje:
--endpointy pre volania z frontendu
--pripojenie na lokálnu PostGIS databázu
+-endpointy pre volania z frontendu<br>
+-pripojenie na lokálnu PostGIS databázu<br>
 -vrátenie výsledkov (geografické údaje sú vo formáte geoJson)
 
 ## Data
