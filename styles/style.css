@@ -1,0 +1,30 @@
+body {
+  font-size: 2em;
+}
+
+#mapid {
+  height: 600px;
+  width: 1000px;
+}
+
+#left-nav {
+  width: 370px;
+  max-height: 600px;
+  overflow:scroll;
+}
+
+ul {
+  max-height: 600px;
+}
+
+div.content {
+  width: 1400px;
+}
+
+div.main {
+  margin-left: 3%;
+}
+
+a:hover {
+  cursor: pointer;
+}
